@@ -1,9 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SceneFarm.cs">
     <Files>
-      <File FileName="Assets/Scripts/JumpToFarm.cs" Line="22" Column="38" />
-      <File FileName="Assets/Scripts/SceneFarm.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/JumpToFarm.cs" Line="32" Column="17" />
+      <File FileName="Assets/Scripts/SceneFarm.cs" Line="17" Column="43" />
+      <File FileName="Assets/Scripts/SceneMain.cs" Line="20" Column="30" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
