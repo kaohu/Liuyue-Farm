@@ -2,7 +2,7 @@
 using System.Collections;
 
 
-public class mainscene : MonoBehaviour {
+public class housescene : MonoBehaviour {
 	
 	// Use this for initialization
 	public float xSpeed;
@@ -52,38 +52,22 @@ public class mainscene : MonoBehaviour {
 				oldPosition1 = temposition1;
 				oldPosition2 = temposition2;
 			}
-				}
+		}
 	}
-
+	
 	bool isEnlarge(Vector2 old1,Vector2 old2,Vector2 new1,Vector2 new2){
 		float leng1 = Mathf.Sqrt ((old1.x-old2.x)*(old1.x-old2.x)+(old1.y-old2.y)*(old1.y-old2.y));
 		float leng2 = Mathf.Sqrt ((new1.x-new2.x)*(new1.x-new2.x)+(new1.y-new2.y)*(new1.y-new2.y));
-
+		
 		if (leng1 < leng2) {
-						return true;
-				} else {
+			return true;
+		} else {
 			return false;
-				}
-
-
+		}
 	}
-	
-//	void OnGUI() {
-//		if (GUI.Button (new Rect (800, 130, 100, 100), "+")) {
-//			transform.camera.orthographicSize *= 0.5f;
-//		}
-//		if (GUI.Button (new Rect (800, 10, 100, 100), "-")) {
-//			transform.camera.orthographicSize *= 2.0f;
-//		}
-//	}
-	//	void LateUpdate(){
-	//		transform.position = new Vector3(Mathf.Clamp (transform.position.x+xTrans,minCamera.x,maxCamera.x),transform.position.y,Mathf.Clamp (transform.position.z+zTrans,minCamera.z,maxCamera.z));
-	//		}
-	
-	//void OnGUI() {
-	//	if (GUI.Button (new Rect (220, 200, 150, 100), "Right")) {
-	//		camera.transform.Translate(-200,0,0);
-	//	}
-	//}
-	
+	void OnGUI() {
+		if (GUI.Button (new Rect (220, 200, 150, 100), "Main Map")) {
+			Application.LoadLevel("scene1");		
+		}
+	}
 }
