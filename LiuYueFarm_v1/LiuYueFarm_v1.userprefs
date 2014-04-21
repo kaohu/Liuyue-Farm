@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ruins.cs">
+    <Files>
+      <File FileName="Assets/main.cs" Line="33" Column="5" />
+      <File FileName="Assets/moving.cs" Line="25" Column="1" />
+      <File FileName="Assets/Summarize.cs" Line="1" Column="1" />
+      <File FileName="Assets/save.txt" Line="9" Column="13" />
+      <File FileName="Assets/SaveExample.cs" Line="1" Column="1" />
+      <File FileName="Assets/ruins.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

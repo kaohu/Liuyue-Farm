@@ -46,7 +46,13 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\SaveExample.cs" />
+     <Compile Include="Assets\SimpleJson.cs" />
+     <Compile Include="Assets\Summarize.cs" />
+     <Compile Include="Assets\main.cs" />
      <Compile Include="Assets\moving.cs" />
+     <Compile Include="Assets\ruins.cs" />
+     <None Include="Assets\save.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
